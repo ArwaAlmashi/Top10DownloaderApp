@@ -35,6 +35,7 @@ class XmlParser {
                             image = text
                             if (image[image.length - 8] == '0') {
                                 applications.add(Application(title, image))
+                                println(image)
                             }
                         }
                         else -> {}

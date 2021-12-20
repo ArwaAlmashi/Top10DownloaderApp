@@ -27,6 +27,7 @@ class MyAdapter(var applications: ArrayList<Application>) : RecyclerView.Adapter
 
         holder.binding.apply {
             title.text = application.name
+            // image.setImageBitmap(application.image)
 
         }
     }
